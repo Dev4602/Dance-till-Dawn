@@ -1,0 +1,30 @@
+extends base.pug
+block scripts 
+   script (src='/static/index.js');
+block style 
+    style
+      include ../static/style.css    
+
+block content    
+   
+    section#introSection
+        div.naam  Hola! Hip-Hoppers 
+        div.line Welcome to Dance 'til Dawn
+        div.small Any Body Can Dance
+    section#ExpertiseSection
+        h2 Our Expertise
+        div.card1
+            
+            h3 Hip-Hop 
+        div.card2 
+            h3 Contemporary
+        div.card3
+            h3 Jazz
+    section#sponsorSection
+        h2 Our Sponsors
+        div#sponsors
+          img(src= "/static/img1.png", alt= "Sponsor Image", class= "spImage")
+          img(src= "/static/download.png", alt= "Sponsor Image", class= "spImage")
+          img(src= "/static/img3.png", alt= "Sponsor Image", class= "spImage")
+          img(src= "/static/img4.png", alt= "Sponsor Image", class= "spImage")
+          

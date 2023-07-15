@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Red+Hat+Display:wght@400;700;900&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Red+Hat+Display:wght@400;700;900&family=Varela+Round&family=Ysabeau+SC:wght@300&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding:0 ;
+}
+#navbar{
+    background-color:rgb(206, 0, 0);
+    font-family: 'Yeon Sung' ;
+    padding: 20px;
+   
+   
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+     justify-content: center;
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+#navbar li a{ 
+    /* font-family: 'Red Hat Display', sans-serif; */
+    font-family: 'Ysabeau SC', sans-serif ;
+   text-decoration: none;
+    padding: 13px 20px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+#navbar li a:hover{
+    color:black;  
+}
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    font-family: 'ZCOOL QingKe HuangYou';
+    
+    align-items: center;
+    background: center/cover no-repeat url("/static/bgg.jpg") ;
+    height: 590px;
+  
+}
+#introSection div.small{
+    font-size: 50px;
+    font-family: 'Kaushan Script', cursive;
+ padding: 330px;
+    text-shadow: 7px 4px black;
+   
+}
+#introSection div.naam{
+    font-size: 55px;
+    font-family: 'Kaushan Script', cursive;
+        padding-top: 34px;
+}
+#introSection div.line{
+    font-size: 40px;
+    /* font-family: 'Kaushan Script', cursive;
+     */
+     font-family: 'Ysabeau SC', sans-serif cursive;
+  
+}
+#ExpertiseSection{
+    height: 450px;
+    background-color: rgb(250, 62, 125);
+    width: 100%;
+}
+#ExpertiseSection h2{
+    text-align: center;
+    padding-top: 12px;
+    font-family: cursive;
+    font-size: 30px;
+}
+.card1{
+    font-family: 'Kaushan Script', cursive;
+    background: center/cover no-repeat url("/static/bg.jpg") ;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    height: 300px;
+    margin: 23px 22px;
+    color: white;
+    
+}
+.card2{
+    font-family: 'Kaushan Script', cursive;
+   background:   center/cover no-repeat url("/static/card2.jpg") ;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    height: 300px;
+    margin: 23px 22px;
+    color: white
+}
+.card3{
+    font-family: 'Kaushan Script', cursive;
+    background:  center/cover no-repeat url("/static/jazz.jpg") ;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    height: 300px;
+    margin: 23px 22px;
+    color: white;
+}
+.card1 h3{
+    text-align: center;
+    font-style: italic;
+    margin: 9px;
+    font-size: 28px;
+}
+.card2 h3{
+    text-align: center;
+    font-style: italic;
+    margin: 9px;
+    font-size: 28px;
+}
+.card3 h3{
+    text-align: center;
+    font-style: italic;
+    margin: 9px;
+    font-size: 25px;
+}
+#sponsorSection{
+    height: 350px;
+    background-color:white;
+    width: 100%;
+    
+}
+#sponsorSection h2{
+    align-items: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    padding-bottom: 58px;
+    margin-top: 20px;
+}
+#sponsors{
+    height: 120px;
+    max-width: 100px;
+    margin: 30px auto
+}
+#sponsors {
+    display: inline;
+    flex-direction: row;
+     justify-content: center;
+    align-items: center;
+}
+.spImage{
+    height: 144px;
+    margin: 15px;
+    padding-left: 44px;
+}
+
+   
+#footer{
+    background-color: black;
+    height: 60px;
+    color: gray;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ysabeau SC', sans-serif ,cursive;
+    font-size: 20px;
+
+}
